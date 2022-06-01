@@ -14,24 +14,24 @@
     <h1 id="title" class="title">Calculadora</h1>
     <div class="calculadora">
         <div>
-            <input class="pantalla" id="pantalla" type="text">
+            <input class="pantalla" id="led" type="text">
         </div>
         <div class="botones_calculadora">
-            <button id="1" onclick="mostarNum(1)">1</button>
-            <button id="2" onclick="mostarNum(2)">2</button>
-            <button id="3" onclick="mostarNum(3)">3</button>
-            <button id="4" onclick="mostarNum(4)">4</button>
-            <button id="5" onclick="mostarNum(5)">5</button>
-            <button id="6" onclick="mostarNum(6)">6</button>
-            <button id="7" onclick="mostarNum(7)">7</button>
-            <button id="8" onclick="mostarNum(8)">8</button>
-            <button id="9" onclick="mostarNum(9)">9</button>
-            <button id="igual">=</button>
-            <button id="suma">+</button>
-            <button id="resta">-</button>
-            <button id="multi">*</button>
-            <button id="divi">/</button>
-
+            <button id="1" onclick="setLed(1)">1</button>
+            <button id="2" onclick="setLed(2)">2</button>
+            <button id="3" onclick="setLed(3)">3</button>
+            <button id="4" onclick="setLed(4)">4</button>
+            <button id="5" onclick="setLed(5)">5</button>
+            <button id="6" onclick="setLed(6)">6</button>
+            <button id="7" onclick="setLed(7)">7</button>
+            <button id="8" onclick="setLed(8)">8</button>
+            <button id="9" onclick="setLed(9)">9</button>
+            <button id="igual" >=</button>
+            <button id="suma" onclick="setLed('+')">+</button>
+            <button id="resta" onclick="setLed('-')">-</button>
+            <button id="multi" onclick="setLed('*')">*</button>
+            <button id="divi" onclick="setLed('/')">/</button>
+            <button id="borrar">CE</button>
             
         </div>
     </div>
